@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: fit-content;
+}
+
+#textBox {
+  height: 70px;
+  width: 220px;
+  border: 6px solid blue;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+#textBox.ok {
+  border-color: royalblue;
+}
+
+#textBox.error {
+  border-color: crimson;
+}
+
+.info {
+  font-family: sans-serif;
+  font-weight: bold;
+}
